@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p::first-line {
+                color: purple;
+                text-transform: uppercase;
+            }
+            
+            #exemplo1::after {
+                content: "  Depois do Div";
+                color: red;
+            }
+
+            #exemplo2::before {
+                content: "Antes desse div  ";
+                color: aquamarine;
+            }
+            
+            ul li::first-letter {
+                color: blue;
+                font-size: 200%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <p>Este é um parágrafo de exemplo, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste.</p>
+        <div id="exemplo1">Este é um elemento de bloco com fundo colorido.</div>
+        <div id="exemplo2">Teste class.</div>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </body>
+</html>

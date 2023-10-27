@@ -1,0 +1,89 @@
+body {
+    color: burlywood;
+    margin: 0;
+    font-family: cursive;
+    display: flex;
+}
+
+#hcb {
+    background-color: pink;
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    padding: 5% 0;
+    text-align: center;
+    text-shadow: 5px 5px black;
+}
+
+.menu {
+    right: 342px;
+    top: 160px;
+    position: relative;
+    width: 100px;
+    height: 200px;
+    background-color: #333;
+    color: #fff;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.menu ul li:nth-child(1) a {
+    color: red;
+}
+
+.menu ul li:nth-child(2) a {
+    color: violet;
+}
+
+.menu ul li:nth-child(3) a {
+    color: blue;
+}
+
+.texto {
+    position: absolute;
+    top: 350px;
+    padding: 5% 0;
+}
+
+.tabela {
+    position: absolute;
+    top: 700px;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.tabela:hover {
+    color: red;
+}
+
+#pnl {
+    padding: 2% 0;
+    position: absolute;
+    top: 1150px;
+    background-color: yellowgreen;
+    box-shadow: 18px 18px 18px #888888;
+}
+
+.rodape {
+    text-align: center;
+    width: 100%;
+    background-color: slateblue;
+    position: absolute;
+    top: 1450px;
+}
+
+.rodape a {
+    color: brown;
+}
+
+.rodape:hover a {
+    color: orange
+}

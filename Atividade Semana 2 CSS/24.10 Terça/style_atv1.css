@@ -1,0 +1,46 @@
+
+
+.logo {
+    border-style: double;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lightblue;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.box1 {
+    border-style: dashed;
+    padding: 5% 0;
+    width: 20%;
+    margin: 20px;
+    background-color: red;
+    box-sizing: border-box;
+    float: left;
+}
+
+.box2 {
+    border-style: dotted;
+    border-width: 10px;
+    padding: 5% 0;
+    width: 20%;
+    margin: 40px;
+    background-color: blue;
+    box-sizing: border-box;
+    float: left;
+}
+
+.box3 {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    padding: 5% 0;
+    width: 20%;
+    margin: 20px;
+    background-color: black;
+    box-sizing: border-box;
+    float: left;
+}

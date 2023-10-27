@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style_atv2.css">
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            .box {
+                background-color: aquamarine;
+                width: 100px;
+                height: 100px;
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+            }
+
+            .absolute-box {
+                width: 100px;
+                height: 100px;
+                background-color: brown;
+                position: absolute;
+                left: 104px;
+            }
+
+            .relative-box {
+                position: relative;
+                width: 100px;
+                height: 100px;
+                background-color: cyan;
+                left: 204px;
+                top: 100px;
+            }
+
+            .float-box {
+                float: right;
+                width: 100px;
+                height: 100px;
+                background-color: pink;
+            }
+
+            .z-index-box {
+                position: absolute;
+                z-index: -1;
+                width: 100px;
+                height: 100px;
+                background-color: black;
+                left: 260px;
+            }
+
+            .rotate-box {
+                width: 100px;
+                height: 100px;
+                background-color: gray;
+                transform: rotate(45deg)
+            }
+
+            .ttranslate-box {
+                width: 100px;
+                height: 100px;
+                background-color: blueviolet;
+                transform: translate(50px 50px);
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="box"></div>
+        
+        <div class="absolute-box"></div>
+
+        <div class="relative-box"></div>
+
+        <div class="float-box"></div>
+
+        <div class="z-index-box"></div>
+
+        <div class="rotate-box"></div>
+
+        <div class="translate-box"></div>
+
+    </body>
+</html>
